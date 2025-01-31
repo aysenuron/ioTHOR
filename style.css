@@ -1,0 +1,1678 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 1.125rem;
+    margin: 0;
+    }
+
+header{
+    max-width: 1024px;
+    text-align: center;
+    justify-content: space-between;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    
+}
+
+
+header img{
+    width: 8rem;
+    height: auto;
+}
+
+nav{
+    display: none;
+}
+
+.navbutton a{
+color: black;
+text-decoration: none;
+font-family: 'Montserrat', sans-serif;
+font-size: 0.8rem;
+font-weight: 400;
+padding: 8px 16px;
+border-radius: 10px;
+box-shadow: 0px 2px 2px transparent;
+border: 0.1px solid transparent;
+}
+
+.navbutton a:hover{
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    transition-duration: 0.2s;
+    padding: 8px 16px;
+    border-radius: 10px;
+    background-color: #F03000;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.27);
+    }
+
+    .navbutton{
+        display: inline-block;
+        position: relative;
+    }
+
+    .dropdown{
+        display: none;
+        position: absolute;
+        z-index: 1;
+        text-align: left;
+        padding-top: 0.5rem;
+        margin-left: -0.5rem;
+    }
+
+.navbutton:hover .dropdown{
+    display: block;
+}
+
+.dropdown-button{
+    padding-top: 1rem;
+}
+
+.dropdown-button a{
+    background-color:#F03000;
+    margin: 1rem;
+    border-radius: 10px;
+    padding: 8px 16px;
+    color: white;
+}
+
+.dropdown-button a:hover{
+    font-weight: 600;
+    background-color: #000000;
+
+}
+
+ main{
+        background-image: url(images/hero-bg.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+ }
+
+ .main-scanner{
+    background-image: linear-gradient(#182E49, white);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.heroboxes{
+    max-width: 1024px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.herobox1{
+    flex: 2;    
+}
+
+.herobox1 h1{
+    font-size: 3rem;
+    font-weight: 700;
+    text-shadow: 1px 1px 0px black;
+    margin-bottom: 2rem;
+}
+
+.scanner-h1{
+    padding-top: 3rem;
+}
+
+.herobox1 .reasons{
+    margin-bottom: -5rem;
+}
+
+.herobox1 h2{
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-shadow: 1px 1px 0px black;
+    margin-bottom: 1rem;
+    padding-top: 2rem;
+}
+
+.herobox1 p{
+    text-shadow: 1px 1px 0px black;
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-bottom: 1.5rem;
+}
+
+.herobox1 a{
+    background-color:#F03000;
+    font-weight: 400;
+    color: white;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px #515151;
+}
+
+.herobox1 a:hover{
+    background-color:#000000;
+    transition-duration: 0.5s;
+    }
+
+.herobox1 .reasons p{
+    font-size: 0.8rem;
+    color: black;
+    text-shadow: 0px 0px 0px black;
+}
+
+.herobox1 .rbox img{
+    height: 3rem;
+}
+
+.supported{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 2rem;
+}
+    
+.equipment, .systems{
+    max-width: 47%;
+    text-align: center;
+}
+
+.headline-supported{
+    display: flex;
+    padding-top: 1rem;
+}
+
+.headline-supported h2{
+    font-size: 0.8rem;
+    text-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+    color: #4887BB;
+    margin-right: 3rem;
+
+}
+
+.equipment{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 3rem;
+}
+
+.systems{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 3rem;
+
+}
+
+.supported .ebox{
+    max-width: 10%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.ebox img{
+    height: 2rem;
+}
+
+.ebox p{
+    font-size: 0.8rem;
+    color: black;
+    text-shadow: 0px 0px 0px black;
+
+}
+
+.systems .ebox{
+    margin-left: 2rem;
+    align-items: center;
+}
+
+.herobox2{
+    flex: 1;
+}
+
+
+.herobox2 img{
+    max-width: auto;
+    height: 35rem;
+    padding: 4rem 0rem 4rem 10rem;
+    float: right;
+}
+
+.main-scanner .herobox2 img{
+    max-width: auto;
+    height: 35rem;
+    margin-right: -10rem;
+    float: right;
+}
+
+.what-we-do{
+    max-width: 1024px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 2rem;
+}
+
+.what-we-do h1{
+    color: #F03000;
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.ibox img{
+    height: 3rem;
+    float: left;
+    padding-right: 1rem;
+}
+
+    .ibox{
+
+        max-width: 47%;
+        padding: 10px;
+        
+    }
+
+
+    .ibox h2{
+        font-size: 1.2rem;
+        font-weight: 600;
+        color: black;
+    }
+
+    .ibox h2, img{
+    align-items: center;
+    }
+
+    .ibox p{
+        font-size: 1rem;
+        font-weight: 400;
+        color: #515151;
+    }
+    
+.third-section{
+        background-color:#EFF1F4;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+ }
+
+
+.why-do-you-need-to{
+    max-width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 2rem;
+    text-align: center;
+}
+
+.why-do-you-need-to h1{
+    color:#F03000;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.reasons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 3rem;
+}
+
+.rbox{
+
+    max-width: 30%;
+    text-align: center;
+    
+}
+
+@media (orientation: portrait) {
+
+    .reasons{
+        width: 100%;
+        flex-direction: column;
+
+    }
+
+    .rbox, .ibox, .heroboxes{
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        padding: 1rem;
+    }
+    
+    .herobox2 img {
+        padding: 2rem 0rem;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+}
+
+.rbox img{
+    height: 10rem;
+}
+
+
+    .rbox h2{
+        font-size: 1rem;
+        font-weight: 400;
+        color:#515151;
+    }
+
+
+
+
+    .fourth-section{
+        background-image: url(images/pexels-edward-jenner-4033148.jpeg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+ }
+
+
+ .how-does-iothor-protect-your-inventory{
+    max-width: 1024px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 2rem;
+}
+
+.columns h1{
+    color:white;
+    font-size: 2rem;
+    font-weight: 700;
+    text-shadow: 1px 1px 0px black;
+}
+
+
+.row1 h2{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 0px black;
+}
+
+.row1 p{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #ffffff;
+    text-shadow: 1px 1px 0px black;
+}
+
+.row1{
+    margin-bottom: 4rem;
+}
+
+
+.fifth-section{
+    max-width: 1024px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.left-image{
+flex: 2;
+margin-top: 2rem;
+margin-bottom: 0rem;
+}
+
+.right-text{
+    flex: 6;
+}
+
+.cdc{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.right-text h1{
+    font-size: 2rem;
+    color: #F03000;
+    margin-bottom: 3rem;
+}
+
+.right-text p{
+    color: #515151;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 5rem;
+    margin-left: 1rem;
+}
+
+.right-text ul{
+    color: #515151;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: -4rem;
+    margin-left: 1rem;
+}
+
+.right-text img{
+    max-width: 20rem;
+    margin-bottom: 5rem;
+}
+
+
+.sixth-section{
+    background-color: #EFF1F4;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+
+.who-we-serve{
+max-width: 1024px;
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+}
+
+.who-we-serve h1{
+color:#F03000;
+font-size: 2rem;
+font-weight: 700;
+padding-top: 4rem;
+padding-bottom: 1rem;
+}
+
+.industries{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+padding-bottom: 2rem;
+}
+
+.sbox{
+
+    max-width: 20%;
+text-align: center;
+
+}
+
+.sbox img{
+    height: 10rem;
+border-radius: 25px;
+}
+
+
+.sbox h2{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color:#515151;
+}
+
+
+.products{
+    background-color: white;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+
+.products-box{
+    max-width: 1024px;
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+}
+
+.products-box h1{
+color:#F03000;
+font-size: 2rem;
+font-weight: 700;
+padding-top: 2rem;
+padding-bottom: 1rem;
+}
+
+.other-products{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+padding-bottom: 2rem;
+}
+
+.pbox{
+
+    max-width: 47%;
+text-align: center;
+
+}
+
+.pbox img{
+    height: 30rem;
+border-radius: 25px;
+box-shadow: 0.5rem 2rem 2rem rgba(0, 0, 0, 0.163);
+}
+
+.pbox img:hover{
+    transform: scale(1.01);
+    transition-duration: 800ms;
+}
+
+
+.pbox h2{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color:#515151;
+}
+
+
+.seventh-section{
+    background-image: url(images/map-ss.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+
+.contact-us-box{
+    max-width: 1024px;
+margin-left: auto;
+margin-right: auto;
+padding-top: 2rem;
+padding-bottom: 2rem;
+
+}
+
+.contact-us-box h1{
+color:white;
+text-shadow: 1px 1px 0px black;
+font-size: 2rem;
+font-weight: 700;
+padding-bottom: 1rem;
+}
+
+.maps{
+display: flex;
+justify-content: space-between;
+padding-bottom: 2rem;
+color: #515151;
+}
+
+
+
+.contact-us-box .maps .map-text{
+    text-align: left;
+    color: white;
+    text-shadow: 1px 1px 0px black;
+    margin-left: -10rem;
+    padding-right: 10rem;
+}
+
+.map-text h2{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.map-text p{
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 2rem
+}
+
+
+footer{
+    background-color: white;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.footer-elements{
+    max-width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    }
+
+.footer-elements img{
+    width: 8rem;
+    height: auto;
+}
+
+.footer-text{
+    color: black;
+    font-size: 0.8rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-text a{
+    color: #000000;
+    font-size: 0.8rem;
+    align-items: center;
+
+}
+
+.footer-text p{
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+}
+
+.footer-text .copyright{
+    padding-right: 1rem;
+}
+
+
+
+
+
+.baslik{
+max-width: 1024px;
+margin-left: auto;
+margin-right: auto;
+}
+
+.baslik h1{
+    color: #4887BB;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.baslik img{
+    width: 1024px;
+    margin-top: 2rem;
+}
+
+.baslik .scan-box-p{
+    display: none;
+}
+
+.dot-code{
+    background-color: #182E49;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    border-radius: 25px;
+    width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.code-exp{
+    max-width: 1024px;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    }
+
+.code-exp p{
+    font-size: 0.8rem;
+    font-weight: 100;
+}
+
+
+.communication-distance{
+    background-color: #99B8D2;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-top: 1rem;
+}
+
+.distance-head{
+    max-width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.distance-head h1{
+    color: white;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.distance-head p{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 100;
+    margin-top: -1rem;
+}
+
+.distance-head img{
+    height: 17rem;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+
+}
+
+.upload-modes{
+    background-color: #99B8D2;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+
+.modes{
+    max-width: 1024px;
+margin-left: auto;
+margin-right: auto;
+}
+
+.modes h1{
+    font-size: 2rem;
+    font-weight: 700;
+    color: white;
+    margin-top: 1rem;
+    padding-top: 2rem;
+}
+
+.mbox{
+    max-width: 47%;
+text-align: center;
+display: flex;
+justify-content: space-between;
+}
+
+
+.cloud-storage h2{
+    color: black;
+    font-weight: 400;
+    font-size: 1.5;
+    text-align: left;
+
+}
+
+.mbox1{
+    padding-top: 5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.cloud-storage{
+    display: flex;
+}
+
+.mbox2 img{
+    height: 25rem;
+margin-right: -50rem;
+margin-top: -3rem;
+}
+
+.cloud-storage img{
+    height: 5rem;
+    padding-right: 1rem;
+}
+
+.lights{
+    max-width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+    }
+    
+.lights h1{
+    font-size: 2rem;
+    font-weight: 700;
+    color: black;
+    padding-top: 2rem;
+}
+
+.lbox{
+    display: flex;
+    justify-items: space-between;
+}
+
+.lbox img{
+    height: 6rem;
+    padding-right: 8rem;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+}
+
+.lbox .blue{
+    height: 8.5rem;
+}
+
+.capacity{
+        background-color: #99B8D2;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+}
+    
+.scan-head{
+    max-width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+}
+    
+.scan-head h1{
+    font-size: 2rem;
+    font-weight: 700;
+    color: white;
+    padding-top: 2rem;
+}
+
+.scan-time{
+    max-width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-items: space-between;
+    align-items: center;
+    padding-bottom: 1rem;
+}
+
+.scan-time img{
+    height: 20rem;
+}
+
+.scan-time h2{
+    color: black;
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-align: center;
+}
+
+.scanner1 {
+padding-right: 10rem;
+}
+
+
+.drop-section{
+    background-color: #182E49;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.drop-elements{
+    max-width: 1024px;
+margin-left: auto;
+margin-right: auto;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.drop img{
+    height: 30rem;
+    padding-right: 5rem;
+    padding-bottom: 4rem;
+}
+
+.drop h2{
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: white;
+}
+
+.burgermenu{
+    display: none;
+}
+
+
+
+@media (max-width: 820px) {
+
+    .heroboxes {
+        flex-direction: column;
+    }
+
+    .columns, .row1{
+        text-align: center;
+    }
+
+    .row1{
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+
+    .left-image{
+        display: none;
+    }
+
+    .right-text{
+        text-align: center;
+    }
+
+    .cdc{
+        flex-direction: column;
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+
+    .cdc img{
+        margin-bottom: 1rem;
+    }
+
+    .industries, .sbox{
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .sbox h2 {
+        text-align: center;
+    }
+
+
+    .pbox{
+        text-align: center;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .pbox img{
+        height: 15rem;
+    }
+
+    .supported{
+        display: none;
+    }
+
+    .headline-supported{
+        display: none;
+    }
+
+
+    .main-scanner .heroboxes .herobox2 img{
+        padding-top: 0;
+        margin-top: 2rem;
+    }
+
+    .header-logo, .footer-logo{
+        height: 1.2rem;
+        margin-left: 2rem;
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .footer-elements{
+        flex-direction: column;
+    }
+
+    .footer-text{
+        margin-left: 2rem;
+        margin-right: 2rem;
+        margin-top: 1rem;
+    }
+
+    .map{
+        display: none;
+    }
+
+
+    .contact-us-box h1{
+        text-align: left;
+        font-size: 1.5rem;    
+        margin-left: 2rem;
+    }
+
+    .maps{
+        flex-direction: column;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .map-text form{
+        padding-top: 1rem;
+    }
+
+    .map{
+    text-align: center;
+    margin-left: 0rem;
+}
+
+.map-text{
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+
+    .container input{
+        flex-direction: column;
+    }
+
+    .headline-supported h2{
+        color: #000000;
+    }
+
+    .scanner-h1{
+        text-align: center;
+        margin-right: auto;
+        margin-left: auto;
+        font-size: 1.5rem;    
+    }
+
+    .main-scanner .herobox2 img{
+        height: 20rem;
+        margin-right: auto;
+        margin-top: -7rem;
+    }
+
+    .baslik .scan-box-p{
+        display: block;
+        margin-top: 2rem;
+        margin-left: auto;
+        margin-right: auto;
+        width: 23rem;
+        align-items: center;
+    }
+
+    .baslik .scan-box-h{
+        display: none;
+    }
+
+
+    .baslik h1{
+        margin-left: 2rem;
+        font-size: 1.5rem;    
+    }
+
+    .dot-code{
+        width: 25rem;
+    }
+
+    .code-exp{
+        flex-direction: column;
+        margin-left: 2rem;
+    }
+
+    .distance-head h1{
+        margin-left: 2rem;
+        font-size: 1.5rem;  
+        margin-top: 1rem;  
+    }
+
+    .distance-head p{
+        margin-left: 2rem;
+        font-size: 1.5rem;    
+    }
+
+    .distance-head img{
+        height: 11rem;
+        text-align: center;
+        margin-left: 2rem;
+    }
+
+    .modes h1{
+        margin-left: 2rem;
+        margin-bottom: -4rem;
+        font-size: 1.5rem;    
+    }
+       
+    .cloud-storage{
+        flex-direction: column;
+        margin-left: 2rem;
+    }
+    .cloud-storage img{
+        height: auto;
+        width: 5rem;
+        margin-bottom: -1rem;
+    }
+
+    .cloud-storage h2{
+        font-size: 1rem;
+    }
+
+    .mbox2 img{
+        height: auto;
+        width: 100%;
+        float: left;
+        padding-top: 8rem;
+        padding-bottom: 2rem;
+        padding-left: 10rem;
+    }
+
+    .mbox{
+        text-align: center;
+    }
+
+    .lights h1{
+        margin-left: 2rem;
+        font-size: 1.5rem;    
+}
+
+    .lights .lbox{
+        margin-left: 2rem;
+    }
+
+    .lights .lbox img{
+        height: 5rem;
+        padding-right: 4rem;
+        padding-bottom: 1rem;
+        padding-top: 1rem;
+    }
+
+    .lights .lbox .blue{
+        height: 6.5rem;
+    }
+
+    .capacity h1{
+        margin-left: 2rem;
+        font-size: 1.5rem; 
+    }
+
+    .scan-time img {
+        height: 10rem;
+    }
+
+    .scan-time h2{
+        font-size: 0.8rem;
+    }
+
+    .scanner1img{
+        margin-left: 2rem;
+    }
+
+    .scanner1 {
+    padding-right: 12rem;       
+ }
+
+ .scanner2img{
+    margin-right: 2rem;
+}
+        
+
+.drop-elements .drop img{
+    height: 15rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+    margin-left: 2rem;
+}
+
+.drop h2{
+    font-size: 1rem;
+    margin-right: 2rem;
+}
+
+    .main-scanner .herobox2 .last{
+        margin-top: 1rem;
+    }
+
+    .main-scanner .herobox1 h1{
+        font-size: 2rem;
+    }
+
+    .map-text h2{
+        display: none;
+    }
+
+    .map-text{
+        margin: 0rem;
+        padding-left: 12rem;
+    }
+
+    .what-we-do h1{
+        font-size: 1.5rem; 
+    }
+
+    .third-section .why-do-you-need-to h1{
+        font-size: 1.5rem; 
+    }
+
+    .fourth-section .how-does-iothor-protect-your-inventory .columns h1{
+        font-size: 1.5rem; 
+    }
+
+    .right-text h1{
+        font-size: 1.5rem; 
+        margin-top: 2rem;
+    }
+
+    .who-we-serve h1{
+        font-size: 1.5rem; 
+    }
+
+    .products-box h1{
+        font-size: 1.5rem; 
+    }
+
+    header{
+        display: flex;
+        text-align: center;
+    }
+
+    nav{
+        margin-top: 1rem;
+        margin-right: 2rem;
+    }
+
+    .burgermenu{
+        display: block;
+        height: 20px;
+    }
+
+    .nav-desktop{
+        display: none;
+    }
+
+    .navbutton {
+        display: block;
+        padding-bottom: 1rem;
+        margin-left: -5rem;
+        text-align: right;
+    }
+
+    .nav-mob{
+        display: flex;
+        flex-direction: column;
+        margin-right: 2rem;
+    }
+
+    nav .navbutton a{
+        font-size: 1.5rem;
+        margin-right: 2rem;
+    }
+
+    .dropdown-button{
+        padding-top: 1.5rem;
+    }
+
+
+}
+
+
+@media (max-width: 500px) {
+
+    .heroboxes {
+        flex-direction: column;
+    }
+
+    .columns, .row1{
+        text-align: center;
+    }
+
+    .row1{
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    .left-image{
+        display: none;
+    }
+
+    .right-text{
+        text-align: center;
+    }
+
+    .cdc{
+        flex-direction: column;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    .cdc img{
+        margin-bottom: 1rem;
+    }
+
+    .industries, .sbox{
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .sbox h2 {
+        text-align: center;
+    }
+
+    .other-products{
+        flex-direction: column;
+    }
+
+    .pbox{
+        text-align: center;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .pbox img{
+        height: 15rem;
+    }
+
+    .supported{
+        display: none;
+    }
+
+    .headline-supported{
+        display: none;
+    }
+
+
+    .main-scanner .heroboxes .herobox2 img{
+        padding-top: 0;
+        margin-top: 2rem;
+    }
+
+    .header-logo, .footer-logo{
+        height: 1.2rem;
+        margin-left: 2rem;
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .footer-elements{
+        flex-direction: column;
+    }
+
+    .footer-text{
+        margin-left: 2rem;
+        margin-right: 2rem;
+        margin-top: 1rem;
+    }
+
+    .map{
+        display: none;
+    }
+
+
+    .contact-us-box h1{
+        text-align: left;
+        font-size: 1.5rem;    
+        margin-left: 2rem;
+    }
+
+    .maps{
+        flex-direction: column;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .map-text form{
+        padding-top: 1rem;
+    }
+
+    .map{
+    text-align: center;
+    margin-left: 0rem;
+}
+
+.map-text{
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+
+    .container input{
+        flex-direction: column;
+    }
+
+    .headline-supported h2{
+        color: #000000;
+    }
+
+    .scanner-h1{
+        text-align: center;
+        margin-right: auto;
+        margin-left: auto;
+        font-size: 1.5rem;    
+    }
+
+    .main-scanner .herobox2 img{
+        height: 20rem;
+        margin-right: auto;
+        margin-top: -7rem;
+    }
+
+    .baslik .scan-box-p{
+        display: block;
+        margin-top: 2rem;
+        margin-left: auto;
+        margin-right: auto;
+        width: 23rem;
+        align-items: center;
+    }
+
+    .baslik .scan-box-h{
+        display: none;
+    }
+
+
+    .baslik h1{
+        margin-left: 2rem;
+        font-size: 1.5rem;    
+    }
+
+    .dot-code{
+        width: 25rem;
+    }
+
+    .code-exp{
+        flex-direction: column;
+        margin-left: 2rem;
+    }
+
+    .distance-head h1{
+        margin-left: 2rem;
+        font-size: 1.5rem;  
+        margin-top: 1rem;  
+    }
+
+    .distance-head p{
+        margin-left: 2rem;
+        font-size: 1.5rem;    
+    }
+
+    .distance-head img{
+        height: 5.5rem;
+        text-align: center;
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+
+    .modes h1{
+        margin-left: 2rem;
+        margin-bottom: -4rem;
+        font-size: 1.5rem;    
+    }
+       
+    .mbox1{
+        flex-direction: row;
+    }
+
+    .cloud-storage{
+        flex-direction: column;
+        margin-left: 2rem;
+    }
+    .cloud-storage img{
+        width: 4rem;
+        margin-bottom: -1rem;
+    }
+
+    .cloud-storage h2{
+        font-size: 1rem;
+    }
+
+    .mbox2 img{
+        width: 8rem;
+        float: left;
+        padding-top: 8rem;
+        padding-bottom: 2rem;
+        margin-left: -8rem;
+    }
+
+    .mbox{
+        text-align: center;
+    }
+
+    .lights h1{
+        margin-left: 2rem;
+        font-size: 1.5rem;    
+}
+
+    .lights .lbox{
+        margin-left: 2rem;
+    }
+
+    .lights .lbox img{
+        height: 2.5rem;
+        padding-right: 2rem;
+        padding-bottom: 1rem;
+        padding-top: 1rem;
+    }
+
+    .lights .lbox .blue{
+        height: 3.2rem;
+    }
+
+    .capacity h1{
+        margin-left: 2rem;
+        font-size: 1.5rem; 
+    }
+
+    .scan-time img {
+        height: 5rem;
+    }
+
+    .scan-time h2{
+        font-size: 0.8rem;
+    }
+
+    .scanner1img{
+        margin-left: 2rem;
+    }
+
+    .scanner1 {
+    padding-right: 1rem;       
+ }
+        
+
+    .drop-elements .drop img{
+        height: 10rem;
+        padding-right: 1rem;
+        padding-bottom: 1rem;
+        margin-left: 2rem;
+    }
+
+    .drop h2{
+        font-size: 1rem;
+    }
+
+    .main-scanner .herobox2 .last{
+        margin-top: 1rem;
+    }
+
+    .main-scanner .herobox1 h1{
+        font-size: 2rem;
+    }
+
+    .map-text h2{
+        display: none;
+    }
+
+    .map-text{
+        margin: 0rem;
+        padding-left: 12rem;
+    }
+
+    .what-we-do h1{
+        font-size: 1.5rem; 
+    }
+
+    .third-section .why-do-you-need-to h1{
+        font-size: 1.5rem; 
+    }
+
+    .fourth-section .how-does-iothor-protect-your-inventory .columns h1{
+        font-size: 1.5rem; 
+    }
+
+    .right-text h1{
+        font-size: 1.5rem; 
+        margin-top: 2rem;
+    }
+
+    .who-we-serve h1{
+        font-size: 1.5rem; 
+    }
+
+    .products-box h1{
+        font-size: 1.5rem; 
+    }
+
+    header{
+        display: flex;
+        text-align: center;
+    }
+
+    nav{
+        margin-top: 1rem;
+        margin-right: 2rem;
+    }
+
+    .burgermenu{
+        display: block;
+        height: 20px;
+    }
+
+    .nav-desktop{
+        display: none;
+    }
+
+    .navbutton {
+        display: block;
+        padding-bottom: 1rem;
+        margin-left: -5rem;
+        text-align: right;
+    }
+
+    .nav-mob{
+        display: flex;
+        flex-direction: column;
+        margin-right: 1rem;
+    }
+
+   nav .navbutton a{
+        font-size: 1.2rem;
+        margin-right: 1rem;
+    }
+
+}
